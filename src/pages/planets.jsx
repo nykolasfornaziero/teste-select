@@ -52,10 +52,6 @@ class Planets extends Component {
                             ))
                             }
 
-                            {/* <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td> */}
-
                         </tbody>
                     </table>
 
