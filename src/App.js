@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import api from './api.js';
 import { Component } from 'react';
 import Cards from './Cards/Cards';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
