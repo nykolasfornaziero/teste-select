@@ -13,7 +13,7 @@ const MainPage = () => {
                             <input type="text" class="form-control" placeholder="Nome" />
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" />
+                            <input type="text" class="form-control" placeholder="Email" />
                         </div>
                         <div class="form-group text-center">
                             <button type="button" class="btn btn-primary">Cadastrar</button>

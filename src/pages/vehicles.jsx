@@ -15,6 +15,8 @@ class Vehicles extends Component {
     async componentDidMount() {
         const response = await api.get();
 
+        // console.log(response.data);
+
         this.setState({ veiculos: response.data.results });
         this.setState({ isLoading: false })
     }
@@ -48,6 +50,11 @@ class Vehicles extends Component {
                                 </tr>
                             ))
                             }
+
+                            {/* <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td> */}
+
                         </tbody>
                     </table>
 
